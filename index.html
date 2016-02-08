@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!--Make website consume all space inside browser window, scale=1 == 100%-->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/➥3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/➥1.4.2/respond.min.js"></script>
+		<![endif]-->
+		<title>My first Bootstrap Application</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	</head>
+	<body>
+	<div class="container">
+
+		<!-- Modal Markup, invisible -->
+		<div class="modal fade" id="myModal">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<!-- Modal Header -->
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">Contact Carlos</h4>
+					</div>
+
+					<!-- Modal Body -->
+					<div class="modal-body">
+						<p>Email: carlos.lau@outlook.com</p>
+						<p>LinkedIn: blah </p>
+						<p>GitHub: Blah</p>
+
+					</div>
+
+					<!-- Modal Footer -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- Who am I Segment -->
+		<div class="row">
+			<div class="col-md-12">
+				<h1>Who am I</h1>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-6 col-sm-6 col-xs-12">
+				<p>I am Computer Science student from York University in Toronto and will graduate on January 2016. I work and study during my time at York and have gained coding skills both in class and while at work. In 2015, I joined IBM as a QA Software Developer where I put my coding skills into play. I coded Perl and Bash scripts to automate test cases involving IBM DB2 database tools. In addition I managed a group of virtual machines through VMWARE's ESXi Virtualization Hosts.</p>
+
+				<p>My philosophy towards life is very a practical one: Work hard and play hard. I like spending time with my family and loved onees. When there is some time to spare, I will pull out my laptop and work on something new. Let it be reading about Twitter bootstrap, Node.JS, or catching up on Quora, I feel good when I know I used my time productively on this day.</p>
+			</div>
+
+			<div class="col-md-6 col-sm-6 col-xs-12">
+				<img src="images/4.jpg"
+			</div>
+
+		</div>
+
+		<div class="row">
+			<div class="col-md-12">
+				<h1>Projects</h1>
+			</div>
+		</div>
+		<!--thumbnail class-->
+		<div class="row">
+			<!-- #1 -->
+			<div class="col-md-4 col-sm-6 col-xs-12">
+
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						Reminder App for Android
+					</div>
+					<div class="panel-body">
+						test
+					</div>
+
+					<div class="panel-footer">
+						<a href="#" class="btn btn-danger">GitHub <span class="glyphicon glyphicon-list-alt"></span></a>
+
+					</div>
+				</div>
+
+			</div>
+
+			<!-- #1 -->
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						ThoghtSpot App for Android
+					</div>
+					<div class="panel-body">
+						test
+					</div>
+					<div class="panel-footer">
+						<a href="#" class="btn btn-danger btn-sm">Agree</a>
+						<a href="#" class="btn btn-default btn-sm">Decline</a>
+					</div>
+				</div>
+			</div>
+
+			<!-- #1 -->
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						iBeacon For Hospital
+					</div>
+					<div class="panel-body">
+						test
+					</div>
+					<div class="panel-footer">
+						<a href="#" class="btn btn-danger btn-sm">Agree</a>
+						<a href="#" class="btn btn-default btn-sm">Decline</a>
+					</div>
+				</div>
+			</div>
+
+						<!-- #1 -->
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						YU GPS
+					</div>
+					<div class="panel-body">
+						test
+					</div>
+					<div class="panel-footer">
+						<a href="#" class="btn btn-danger btn-sm">Agree</a>
+						<a href="#" class="btn btn-default btn-sm">Decline</a>
+					</div>
+				</div>
+			</div>
+									<!-- #1 -->
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						Spaceship Simulator
+					</div>
+					<div class="panel-body">
+						test
+					</div>
+					<div class="panel-footer">
+						<a href="#" class="btn btn-danger btn-sm">Agree</a>
+						<a href="#" class="btn btn-default btn-sm">Decline</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--Modal Contact, lol-->
+		<hr>
+		<div class="row">
+			<div class="col-md-12">
+				<h1>Contact Information</h1>
+				<p>Thanks for taking for the time view my webpage. Click on the button below to see my contact information. I will only respond to serious inquiries.</p>
+				<!--Handle to trigger Modal -->
+				<button class="btn btn-danger" data-toggle="modal" data-target="#myModal">View Contact Info</button>
+			</div>	
+		</div>
+
+	</div>
+	
+	<!-- jquery should be loaded after all html elements are loaded-->
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.js"></script>
+	</body>
+</html>
